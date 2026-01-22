@@ -1,4 +1,4 @@
-# Storefront 🛒
+# Storefront DEV🛒
 
 A Django-based backend project demonstrating clean project structure, REST-style APIs, and modern Python tooling.
 Basic CRUD operations
@@ -25,25 +25,43 @@ Basic CRUD operations
 ---
 
 ## 📁 Project Structure
-torefront/
+storefront/
 │
+
 ├── api/
+
 │ ├── urls.py
+
 │ ├── views.py
+
 │ └── models.py
+
 │
+
 ├── playground/
+
 │ ├── urls.py
+
 │ └── views.py
+
 │
+
 ├── storefront/
+
 │ ├── settings.py
+
 │ ├── urls.py
+
 │ └── wsgi.py
+
 │
+
 ├── Pipfile
+
 ├── Pipfile.lock
+
 ├── manage.py
+
 └── README.md
 
 ## ⚙️ Setup Instructions
@@ -60,7 +78,7 @@ python manage.py migrate
 #start dev server
 python manage.py runserver
 ```
-Method	Endpoint	Description
-GET	/api/users/	List users
-POST	/api/users/create/	Create a user
-GET	/api/users/<id>/	Get user details
+- Method	Endpoint	Description
+  - GET	/api/users/	List users
+  - POST	/api/users/create/	Create a user
+  - GET	/api/users/<id>/	Get user details
