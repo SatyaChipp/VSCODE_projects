@@ -43,11 +43,14 @@ urllib3 = "==2.0.2"
 werkzeug = "==2.3.4"
 wrapt = "==1.14.1"
 zipp = "==3.15.0"
-grpcio = "*" 
+grpcio = "*"
 h5py = "*"
 numpy = "*"
 six = "*"
-django = "*"
+django= "*"
+python-dotenv = "*"
+gunicorn = "*"
+
 [dev-packages]
 
 [requires]
